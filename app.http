@@ -1,0 +1,18 @@
+GET http://localhost:3000/
+###
+
+POST http://localhost:3000/insert/
+Content-Type: application/json
+
+{
+    "name":"phhh",
+    "password":"prashh@2023"
+}
+
+POST http://localhost:3000/select/
+Content-Type: application/json
+
+{
+    "name": "vamsi",
+    "password": "vamsi@2023"
+}
